@@ -1,0 +1,29 @@
+.banner {
+	display: grid;
+	place-items: center;
+	height: 400px;
+	width: 100%;
+	background-image: url('/images/coffee.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	font-size: 80px;
+}
+
+.why {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.why h2 {
+	font-size: 45px;
+	margin: 20px 0;
+}
+.why p {
+	width: 1000px;
+	font-size: 20px;
+}
