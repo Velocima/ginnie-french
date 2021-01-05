@@ -7,7 +7,7 @@ export default function Groups() {
 		<>
 			<Nav />
 			<main>
-				<Banner title='Groups' image='/images/cafeFront.jpg' position='70' />
+				<Banner title='Sessions' image='/images/cafeFront.jpg' position='70' />
 				<section className={style.groups}>
 					<div className={style.group}>
 						<div className={style.day}>

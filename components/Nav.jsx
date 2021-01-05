@@ -2,7 +2,7 @@ import Link from 'next/link';
 import style from '../styles/nav.module.css';
 
 export default function Nav() {
-	const pages = ['Home', 'Groups', 'Contact'];
+	const pages = ['Home', 'Sessions', 'Contact'];
 	return (
 		<nav className={style.nav}>
 			{pages.map((page) => {
