@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import style from '../styles/index.module.css';
 import Nav from '../components/Nav';
-
 export default function Home() {
 	return (
 		<div className={style.container}>
 			<Head>
-				<title>Create Next App</title>
+				<title>French Au Café</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Nav />

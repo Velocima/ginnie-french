@@ -1,9 +1,14 @@
 import Nav from '../components/Nav';
 import style from '../styles/sessions.module.css';
+import Head from 'next/head';
 
 export default function Groups() {
 	return (
 		<>
+			<Head>
+				<title>Sessions | French Au Café</title>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
 			<Nav />
 			<main>
 				<section className={style.banner}>
