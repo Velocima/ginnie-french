@@ -1,3 +1,18 @@
+.banner {
+	display: grid;
+	place-items: center;
+	height: 400px;
+	width: 100%;
+	background-image: url('/images/cafeFront.jpg');
+	background-size: cover;
+	background-position: 50% 70%;
+}
+
+.banner h1 {
+	font-size: 80px;
+	color: rgb(245 241 241);
+}
+
 .groups {
 	display: flex;
 	justify-content: center;

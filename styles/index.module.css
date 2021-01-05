@@ -1,3 +1,17 @@
+.banner {
+	display: grid;
+	place-items: center;
+	height: 400px;
+	width: 100%;
+	background-image: url('/images/coffee.jpg');
+	background-size: cover;
+}
+
+.banner h1 {
+	font-size: 80px;
+	color: rgb(32, 34, 34);
+}
+
 .why {
 	display: flex;
 	flex-direction: column;

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import style from '../styles/index.module.css';
 import Nav from '../components/Nav';
-import Banner from '../components/Banner';
 
 export default function Home() {
 	return (
@@ -12,7 +11,9 @@ export default function Home() {
 			</Head>
 			<Nav />
 			<main>
-				<Banner title='French Au Café' image='/images/coffee.jpg' />
+				<section className={style.banner}>
+					<h1>French Au Café</h1>
+				</section>
 				<section className={style.why}>
 					<h2>Pourquoi? Why?</h2>
 					<p>

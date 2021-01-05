@@ -1,13 +1,14 @@
 import Nav from '../components/Nav';
-import Banner from '../components/Banner';
-import style from '../styles/groups.module.css';
+import style from '../styles/sessions.module.css';
 
 export default function Groups() {
 	return (
 		<>
 			<Nav />
 			<main>
-				<Banner title='Sessions' image='/images/cafeFront.jpg' position='70' />
+				<section className={style.banner}>
+					<h1>Sessions</h1>
+				</section>
 				<section className={style.groups}>
 					<div className={style.group}>
 						<div className={style.day}>
