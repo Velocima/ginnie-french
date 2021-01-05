@@ -4,12 +4,17 @@
 	height: 400px;
 	width: 100%;
 	background-image: url('/images/coffee.jpg');
+	background-position: center;
 	background-size: cover;
 }
 
 .banner h1 {
 	font-size: 80px;
 	color: rgb(32, 34, 34);
+	padding: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(253, 249, 244, 0.5);
 }
 
 .why {

@@ -10,7 +10,11 @@
 
 .banner h1 {
 	font-size: 80px;
-	color: rgb(245 241 241);
+	color: rgb(32, 34, 34);
+	padding: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(253, 249, 244, 0.5);
 }
 
 .groups {
