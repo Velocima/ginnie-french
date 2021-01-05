@@ -1,17 +1,3 @@
-.banner {
-	display: grid;
-	place-items: center;
-	height: 400px;
-	width: 100%;
-	background-image: url('/images/coffee.jpg');
-	background-size: cover;
-	background-position: center;
-}
-
-.banner h1 {
-	font-size: 80px;
-}
-
 .why {
 	display: flex;
 	flex-direction: column;
