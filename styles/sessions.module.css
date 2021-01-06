@@ -137,6 +137,7 @@
 
 @media screen and (max-height: 800px) and (max-width: 700px) {
 	.banner {
+		height: 30vh;
 		min-height: 230px;
 	}
 }
