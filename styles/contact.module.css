@@ -75,3 +75,53 @@
 	color: rgb(46, 51, 50);
 	background-color: rgba(253, 131, 9, 0.8);
 }
+
+@media screen and (max-width: 700px) {
+	.banner h1 {
+		font-size: 4rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.banner h1 {
+		font-size: 3rem;
+	}
+	.contact a {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.banner h1 {
+		font-size: 2rem;
+	}
+	.contact p {
+		font-size: 1.125rem;
+	}
+	.contact a {
+		font-size: 1.25rem;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.banner {
+		height: 50vh;
+		min-height: 280px;
+	}
+	.contact a,
+	.contact p {
+		margin: 15px 0;
+		padding: 15px;
+	}
+}
+
+@media screen and (max-height: 800px) and (max-width: 700px) {
+	.banner {
+		height: 30vh;
+		min-height: 230px;
+	}
+}
+@media screen and (max-height: 800px) and (max-width: 450px) {
+	.banner {
+		min-height: 180px;
+	}
+}
