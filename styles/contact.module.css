@@ -1,0 +1,68 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	display: grid;
+	place-items: center;
+	height: 400px;
+	width: 100%;
+	background-image: url('/images/pastry.jpg');
+	background-size: cover;
+	background-position: bottom;
+}
+
+.banner h1 {
+	font-size: 80px;
+	color: rgb(32, 34, 34);
+	padding: 20px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(253, 249, 244, 0.5);
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(32, 34, 34);
+}
+
+.contact p {
+	max-width: 90%;
+	margin: 40px 0 20px;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgb(46, 51, 50);
+	text-align: center;
+	background-color: rgb(235, 236, 236);
+	box-shadow: 2px 6px 6px rgb(141, 151, 149);
+}
+
+.contact a {
+	display: inline-flex;
+	align-items: center;
+	max-width: 90%;
+	margin: 20px 0;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 1.75rem;
+	text-decoration: underline;
+	background-color: rgba(253, 131, 9, 0.2);
+	box-shadow: 2px 6px 6px rgba(253, 131, 9, 0.5);
+	transition: 0.3s;
+}
+.contact a:hover {
+	background-color: rgba(253, 131, 9, 0.4);
+	box-shadow: 2px 4px 4px rgba(253, 131, 9, 0.7);
+}
+
+.icon {
+	color: rgb(46, 51, 50);
+	margin-right: 10px;
+}
