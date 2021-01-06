@@ -78,3 +78,70 @@
 	text-align: center;
 	color: black;
 }
+
+@media screen and (max-width: 700px) {
+	.banner h1 {
+		font-size: 4rem;
+	}
+	.groups {
+		margin: 0;
+	}
+	.day h2 {
+		font-size: 2rem;
+	}
+	.day p,
+	.group p {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.group {
+		width: 200px;
+		margin: 20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.banner h1 {
+		font-size: 3rem;
+	}
+	.covid {
+		padding: 12px;
+	}
+	.group,
+	.covid {
+		width: 80vw;
+	}
+	.group p {
+		max-width: 100%;
+	}
+	.day {
+		height: 50px;
+		padding: 15px;
+	}
+	.day h2 {
+		font-size: 1.75rem;
+	}
+}
+@media screen and (max-width: 450px) {
+	.banner h1 {
+		font-size: 2rem;
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.banner {
+		height: 50vh;
+		min-height: 280px;
+	}
+}
+
+@media screen and (max-height: 800px) and (max-width: 700px) {
+	.banner {
+		min-height: 230px;
+	}
+}
+@media screen and (max-height: 800px) and (max-width: 450px) {
+	.banner {
+		min-height: 180px;
+	}
+}
