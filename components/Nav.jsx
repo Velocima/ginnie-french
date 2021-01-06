@@ -6,7 +6,7 @@ import useWindowSize from '../hooks/useWindowSize';
 export default function Nav() {
 	const pages = ['Home', 'Sessions', 'Contact'];
 
-	const [height, width] = useWindowSize();
+	const [width, height] = useWindowSize();
 	const [isNavCollapsible, setIsNavCollapsible] = useState(false);
 	const [isNavOpen, setIsNavOpen] = useState(false);
 
