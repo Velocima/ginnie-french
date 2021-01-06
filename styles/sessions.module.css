@@ -32,6 +32,7 @@
 	font-size: 20px;
 	color: rgb(46, 51, 50);
 	text-align: center;
+	font-style: italic;
 	background-color: rgba(253, 131, 9, 0.2);
 	box-shadow: 2px 6px 6px rgba(253, 131, 9, 0.5);
 }
