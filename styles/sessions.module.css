@@ -1,3 +1,10 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .banner {
 	display: grid;
 	place-items: center;
@@ -17,10 +24,23 @@
 	background-color: rgba(253, 249, 244, 0.5);
 }
 
+.covid {
+	max-width: 90%;
+	margin: 20px 0;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+	color: rgb(46, 51, 50);
+	text-align: center;
+	background-color: rgba(253, 131, 9, 0.2);
+	box-shadow: 2px 6px 6px rgba(253, 131, 9, 0.5);
+}
+
 .groups {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	margin-top: 20px;
 }
 
@@ -30,7 +50,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 240px;
-	margin: 0 30px;
+	margin: 0 30px 20px;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 2px 6px 6px rgb(141, 151, 149);

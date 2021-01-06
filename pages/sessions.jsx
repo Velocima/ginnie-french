@@ -10,10 +10,13 @@ export default function Groups() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Nav />
-			<main>
+			<main className={style.main}>
 				<section className={style.banner}>
 					<h1>Sessions</h1>
 				</section>
+				<p className={style.covid}>
+					Due to present circumstances all tuition is taking place online.
+				</p>
 				<section className={style.groups}>
 					<div className={style.group}>
 						<div className={style.day}>
