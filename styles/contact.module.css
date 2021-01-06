@@ -47,12 +47,16 @@
 .contact a {
 	display: inline-flex;
 	align-items: center;
+	justify-content: center;
+	flex-wrap: no-wrap;
 	max-width: 90%;
 	margin: 20px 0;
 	padding: 20px;
 	border-radius: 10px;
 	font-size: 1.75rem;
+	text-align: center;
 	text-decoration: underline;
+	word-break: break-all;
 	background-color: rgba(253, 131, 9, 0.2);
 	box-shadow: 2px 6px 6px rgba(253, 131, 9, 0.5);
 	transition: 0.3s;
@@ -63,6 +67,11 @@
 }
 
 .icon {
+	flex-shrink: 0;
+	margin-right: 20px;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 50px;
 	color: rgb(46, 51, 50);
-	margin-right: 10px;
+	background-color: rgba(253, 131, 9, 0.8);
 }
