@@ -44,7 +44,10 @@ export default function Nav() {
 				<nav className={style.nav} style={navStyle}>
 					{pages.map((page) => {
 						return (
-							<Link href={page === 'Home' ? '/' : page.toLowerCase()} key={page}>
+							<Link
+								href={page === 'Home' ? '/' : `/${page.toLowerCase()}`}
+								key={page}
+							>
 								<a>{page}</a>
 							</Link>
 						);
