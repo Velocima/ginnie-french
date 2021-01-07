@@ -9,7 +9,7 @@ export default function Groups() {
 	return (
 		<>
 			<Head>
-				<title>Sessions | French Au Café</title>
+				<title>Contact | French Au Café</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<Nav />
