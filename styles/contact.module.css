@@ -10,9 +10,9 @@
 	place-items: center;
 	height: 400px;
 	width: 100%;
-	background-image: url('/images/pastry.jpg');
+	background-image: url('/images/letters.jpg');
 	background-size: cover;
-	background-position: bottom;
+	background-position: 50% 45%;
 }
 
 .banner h1 {
