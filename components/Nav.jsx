@@ -7,19 +7,9 @@ export default function Nav() {
 	const pages = ['Home', 'Sessions', 'Contact'];
 
 	const [width, height] = useWindowSize();
-	const [isNavCollapsible, setIsNavCollapsible] = useState(false);
-	const [isNavOpen, setIsNavOpen] = useState(false);
+	let isScreenSmall = height < 500 || width < 550;
 
-	useEffect(() => {
-		if (height < 500 || width < 550) {
-			setIsNavCollapsible(true);
-			setIsNavOpen(true);
-		} else {
-			setIsNavOpen(false);
-			setIsNavCollapsible(false);
-		}
-		return null;
-	}, [height, width]);
+	const [isNavOpen, setIsNavOpen] = useState(!isScreenSmall);
 
 	const toggleNav = () => {
 		setIsNavOpen((prevState) => !prevState);
@@ -27,11 +17,11 @@ export default function Nav() {
 
 	const iconStyle = {
 		transform: isNavOpen ? 'rotate(180deg)' : 'rotate(0)',
-		display: isNavCollapsible ? 'flex' : 'none',
+		display: isScreenSmall ? 'flex' : 'none',
 	};
 
 	const navStyle = {
-		transform: !isNavOpen ? 'translateY(0)' : 'translateY(-120%)',
+		transform: !isScreenSmall || isNavOpen ? 'translateY(0)' : 'translateY(-120%)',
 	};
 	return (
 		<>
