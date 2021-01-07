@@ -11,7 +11,7 @@
 	height: 100%;
 	width: 100%;
 	padding: 10px 0;
-	background-color: rgba(253, 249, 244, 0.5);
+	background-color: rgba(253, 249, 244, 0.9);
 	transition: 0.3s;
 }
 
@@ -42,7 +42,7 @@
 	width: 42px;
 	padding: 5px;
 	border-radius: 5px;
-	background-color: rgba(253, 249, 244, 0.5);
+	background-color: rgba(253, 249, 244, 0.9);
 	transition: 0.3s;
 }
 .line {
