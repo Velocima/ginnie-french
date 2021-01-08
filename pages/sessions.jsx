@@ -8,6 +8,10 @@ export default function Groups() {
 			<Head>
 				<title>Sessions | French Au Café</title>
 				<link rel='icon' href='/favicon.ico' />
+				<meta
+					name='description'
+					content='French au café group tuition schedule. Learn French in small relaxed groups.'
+				/>
 			</Head>
 			<Nav />
 			<main className={style.main}>

@@ -11,6 +11,10 @@ export default function Groups() {
 			<Head>
 				<title>Contact | French Au Café</title>
 				<link rel='icon' href='/favicon.ico' />
+				<meta
+					name='description'
+					content='Contact French au café tutor Virginnie Hartley for enquires and bookings. Contact details.'
+				/>
 			</Head>
 			<Nav />
 			<main className={style.main}>
