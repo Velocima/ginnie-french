@@ -51,7 +51,7 @@ export default function Home() {
 						<br />
 						<br />
 						Tuition in small groups and one to one home tution at all levels - including
-						exam preparation - are offered.
+						exam preparation - are offered online or in person.
 					</p>
 				</section>
 			</main>
