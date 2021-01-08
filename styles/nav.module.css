@@ -62,3 +62,47 @@
 		background-color: rgba(253, 249, 244, 0.9);
 	}
 }
+
+/* Larger resolutions */
+
+@media screen and (min-width: 2500px) {
+	.overflowContainer {
+		top: 30px;
+		border-radius: 7px;
+	}
+
+	.nav {
+		padding: 15px 0;
+	}
+
+	.nav a {
+		font-size: 2.25rem;
+		padding: 15px;
+		border-radius: 7px;
+	}
+
+	.nav a:nth-child(2) {
+		margin: 0 22px;
+	}
+}
+
+@media screen and (min-width: 3800px) {
+	.overflowContainer {
+		top: 40px;
+		border-radius: 10px;
+	}
+
+	.nav {
+		padding: 20px 0;
+	}
+
+	.nav a {
+		font-size: 3rem;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+	.nav a:nth-child(2) {
+		margin: 0 30px;
+	}
+}
