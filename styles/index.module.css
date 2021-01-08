@@ -125,6 +125,10 @@
 	.about p {
 		max-width: 80%;
 		margin-bottom: 20px;
+		text-align: center;
+	}
+	.why p {
+		text-align: center;
 	}
 }
 

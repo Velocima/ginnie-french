@@ -43,8 +43,11 @@ export default function Home() {
 					<img src='/images/profile.jpg' alt='' />
 					<p>
 						Ginnie is a qualified linguist and artist with over 20 years teaching
-						experience in the UK. Her approach and resources are individually tailored
-						to reflect learners' requirements and personal interests.
+						experience in the UK.
+						<br />
+						<br />
+						Her approach and resources are individually tailored to reflect learners'
+						requirements and personal interests.
 						<br />
 						<br />
 						Tuition in small groups and one to one home tution at all levels - including
