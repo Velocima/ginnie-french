@@ -22,7 +22,7 @@ export default function Home() {
 						Pourquoi? <span>Why?</span>
 					</h2>
 					<p>
-						Picture this: your are relaxing at a bistrot terrace in the shade of the
+						Picture this: you are relaxing at a bistrot terrace in the shade of the
 						plane trees lining a quaint French village square, watching the world drift
 						by...
 						<br />
