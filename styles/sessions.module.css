@@ -45,20 +45,9 @@
 	margin-top: 20px;
 }
 
-.group {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 240px;
-	margin: 0 30px 20px;
-	border-radius: 10px;
-	overflow: hidden;
-	box-shadow: 2px 6px 6px rgb(141, 151, 149);
-}
 .day {
 	width: 100%;
-	height: 70px;
+	height: 75px;
 	padding: 20px;
 	background-color: rgb(240, 238, 238);
 }
@@ -69,6 +58,17 @@
 	text-align: center;
 }
 
+.group {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	margin: 0 30px 20px;
+	border-radius: 10px;
+	box-shadow: 2px 6px 6px rgb(141, 151, 149);
+	overflow: hidden;
+}
 .group p {
 	width: 100%;
 	max-width: 300px;
@@ -144,5 +144,87 @@
 @media screen and (max-height: 800px) and (max-width: 450px) {
 	.banner {
 		min-height: 180px;
+	}
+}
+
+/* Large resolutions */
+
+@media screen and (min-width: 2500px) {
+	.banner {
+		height: 600px;
+	}
+	.banner h1 {
+		font-size: 120px;
+		padding: 30px;
+		padding-bottom: 15px;
+		border-radius: 15px;
+	}
+	.covid {
+		margin: 30px 0;
+		padding: 30px;
+		border-radius: 15px;
+		font-size: 30px;
+		box-shadow: 3px 9px 9px rgba(253, 131, 9, 0.5);
+	}
+	.groups {
+		margin-top: 30px;
+	}
+	.day {
+		height: 115px;
+		padding: 30px;
+	}
+	.group {
+		width: 375px;
+		margin: 0 45px 30px;
+		border-radius: 15px;
+		box-shadow: 3px 9px 9px rgb(141, 151, 149);
+	}
+	.day h2 {
+		font-size: 60px;
+	}
+	.group p {
+		max-width: 450px;
+		padding: 15px 30px;
+		font-size: 30px;
+	}
+}
+
+@media screen and (min-width: 3800px) {
+	.banner {
+		height: 800px;
+	}
+	.banner h1 {
+		font-size: 160px;
+		padding: 40px;
+		padding-bottom: 20px;
+		border-radius: 20px;
+	}
+	.covid {
+		margin: 40px 0;
+		padding: 40px;
+		border-radius: 20px;
+		font-size: 40px;
+		box-shadow: 4px 12px 12px rgba(253, 131, 9, 0.5);
+	}
+	.groups {
+		margin-top: 40px;
+	}
+	.day {
+		height: 140px;
+		padding: 40px;
+	}
+	.day h2 {
+		font-size: 80px;
+	}
+	.group {
+		width: 500px;
+		margin: 0 60px 40px;
+		border-radius: 20px;
+		box-shadow: 4px 12px 12px rgb(141, 151, 149);
+	}
+	.group p {
+		max-width: 600px;
+		padding: 20px 40px;
+		font-size: 40px;
 	}
 }
