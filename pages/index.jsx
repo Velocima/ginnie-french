@@ -6,7 +6,7 @@ export default function Home() {
 		<div className={style.container}>
 			<Head>
 				<title>French Au Café</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/images/icon.png' />
 				<meta
 					name='description'
 					content='French au café. Learn French with native French speaker Virginie Hartley. French tuition, all levels, exam preparation, online or in person, small groups or one to one.'
