@@ -10,7 +10,7 @@ export default function Groups() {
 		<>
 			<Head>
 				<title>Contact | French Au Café</title>
-				<link rel='icon' href='/favicon.ico' />
+				<link rel='icon' href='/images/icon.png' />
 				<meta
 					name='description'
 					content='Contact French au café tutor Virginnie Hartley for enquires and bookings. Contact details.'
