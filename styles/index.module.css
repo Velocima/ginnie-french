@@ -19,7 +19,6 @@
 	font-size: 80px;
 	color: rgb(32, 34, 34);
 	padding: 20px;
-	padding-bottom: 10px;
 	border-radius: 10px;
 	background-color: rgba(253, 249, 244, 0.7);
 }
@@ -176,8 +175,7 @@
 @media screen and (max-width: 300px) {
 	.banner h1 {
 		font-size: 11vw;
-		padding: 3vw;
-		padding-top: 5vw;
+		padding: 5vw;
 	}
 }
 
@@ -209,7 +207,6 @@
 	.banner h1 {
 		font-size: 120px;
 		padding: 30px;
-		padding-bottom: 15px;
 		border-radius: 15px;
 	}
 	.why {
@@ -258,7 +255,6 @@
 	.banner h1 {
 		font-size: 160px;
 		padding: 40px;
-		padding-bottom: 20px;
 		border-radius: 20px;
 	}
 	.why {
