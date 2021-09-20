@@ -18,19 +18,17 @@ export default function Groups() {
 				<section className={style.banner}>
 					<h1>Sessions</h1>
 				</section>
-				<p className={style.covid}>
-					Due to present circumstances all tuition is taking place online.
-				</p>
 				<section className={style.groups}>
 					<div className={style.group}>
 						<div className={style.day}>
 							<h2>Monday</h2>
 						</div>
 						<p>
-							Monmouth U3A
+							Intermediate/Advanced
+							<br /> U3A French
 							<br />
-							10:00am - 11:30am
-							<br /> Intermediate
+							10am – 11.30am
+							<br /> Member’s Home/Monmouth
 						</p>
 					</div>
 					<div className={style.group}>
@@ -38,9 +36,14 @@ export default function Groups() {
 							<h2>Tuesday</h2>
 						</div>
 						<p>
-							Ross-On-Wye
-							<br /> 7:00pm - 8:30pm
-							<br /> Advanced
+							Intermediate
+							<br /> 5.45pm – 7.15pm
+							<br /> Larruperz Centre/Ross on Wye
+						</p>
+						<p>
+							Advanced
+							<br /> 7.30pm – 9pm
+							<br /> Larruperz Centre/Ross on Wye
 						</p>
 					</div>
 					<div className={style.group}>
@@ -48,14 +51,9 @@ export default function Groups() {
 							<h2>Wednesday</h2>
 						</div>
 						<p>
-							Abergavenny
-							<br /> 10:00am - 11:30am
-							<br /> Intermediate
-						</p>
-						<p>
-							Llangarron
-							<br /> 1:00pm - 2:30pm
-							<br /> Intermediate
+							Intermediate/Advanced
+							<br /> 1pm-2.30pm
+							<br /> Garron Centre, Llangarron
 						</p>
 					</div>
 					<div className={style.group}>
@@ -63,19 +61,17 @@ export default function Groups() {
 							<h2>Thursday</h2>
 						</div>
 						<p>
-							Monmouth
-							<br /> 10:00am - 11:30am
-							<br /> Conversation
+							Conversation
+							<br />
+							Intermediate/Advanced
+							<br /> 10am – 11.30am
+							<br /> Zoom (online)
 						</p>
 						<p>
-							Abergavenny
-							<br /> 4:00pm - 5:30pm
-							<br /> Advanced
-						</p>
-						<p>
-							Ross-On-Wye
-							<br /> 6:30pm - 8:00pm
-							<br /> Intermediate
+							Intermediate/Advanced
+							<br />
+							3pm, to be confirmed
+							<br /> The Trading Post, Abergavenny
 						</p>
 					</div>
 				</section>

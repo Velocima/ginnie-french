@@ -8,7 +8,7 @@
 .banner {
 	display: grid;
 	place-items: center;
-	height: 400px;
+	height: 250px;
 	width: 100%;
 	background-image: url('/images/cafeFront.jpg');
 	background-size: cover;
@@ -18,22 +18,10 @@
 .banner h1 {
 	font-size: 80px;
 	color: rgb(32, 34, 34);
-	padding: 20px;
+	margin-bottom: 10px;
+	padding: 20px 30px 25px;
 	border-radius: 10px;
 	background-color: rgba(253, 249, 244, 0.7);
-}
-
-.covid {
-	max-width: 90%;
-	margin: 20px 0;
-	padding: 20px;
-	border-radius: 10px;
-	font-size: 20px;
-	color: rgb(46, 51, 50);
-	text-align: center;
-	font-style: italic;
-	background-color: rgba(253, 131, 9, 0.2);
-	box-shadow: 2px 6px 6px rgba(253, 131, 9, 0.5);
 }
 
 .groups {
@@ -46,7 +34,7 @@
 
 .day {
 	width: 100%;
-	height: 75px;
+	height: 90px;
 	padding: 20px;
 	background-color: rgb(240, 238, 238);
 }
@@ -62,20 +50,29 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 250px;
-	margin: 0 30px 20px;
+	width: 260px;
+	margin: 20px 25px 20px;
 	border-radius: 10px;
 	box-shadow: 2px 6px 6px rgb(141, 151, 149);
 	overflow: hidden;
 }
+
 .group p {
 	width: 100%;
 	max-width: 300px;
 	padding: 10px 20px;
-	background-color: rgb(253, 131, 9);
+	background-color: rgb(243 202 133);
 	font-size: 20px;
 	text-align: center;
 	color: black;
+}
+
+.group p:nth-child(2) {
+	padding-top: 20px;
+}
+
+.group p:last-child {
+	padding-bottom: 30px;
 }
 
 @media screen and (max-width: 700px) {
@@ -150,7 +147,7 @@
 
 @media screen and (min-width: 2500px) {
 	.banner {
-		height: 600px;
+		height: 350px;
 	}
 	.banner h1 {
 		font-size: 120px;
@@ -189,7 +186,7 @@
 
 @media screen and (min-width: 3800px) {
 	.banner {
-		height: 800px;
+		height: 500px;
 	}
 	.banner h1 {
 		font-size: 160px;

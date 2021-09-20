@@ -38,7 +38,8 @@
 html,
 body {
 	font-family: 'Fira Sans', sans-serif;
-	background-color: #fdf9f4;
+	background-color: rgb(129, 160, 169);
+	color: rgb(32, 34, 34);
 }
 
 a {

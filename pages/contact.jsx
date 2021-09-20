@@ -22,10 +22,7 @@ export default function Groups() {
 					<h1>Contact</h1>
 				</section>
 				<section className={style.contact}>
-					<p>
-						For information regarding any of the French au café sessions or one to one
-						tuition, feel welcome to get in touch!
-					</p>
+					<h2>Get in touch!</h2>
 					<a href='mailto:virginie.hartley@virgin.net'>
 						<IconContext.Provider value={{ className: style.icon }}>
 							<GoMail />

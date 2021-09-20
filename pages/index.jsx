@@ -12,28 +12,27 @@ export default function Home() {
 					content='French au café. Learn French with native French speaker Virginie Hartley. French tuition, all levels, exam preparation, online or in person, small groups or one to one.'
 				/>
 			</Head>
-			<Nav />
 			<main className={style.main}>
 				<section className={style.banner}>
 					<h1>French Au Café</h1>
 				</section>
+				<Nav />
 				<section className={style.why}>
 					<h2>
 						Pourquoi? <span>Why?</span>
 					</h2>
 					<p>
-						Picture this: you are relaxing at a bistrot terrace in the shade of the
-						plane trees lining a quaint French village square, watching the world drift
-						by...
+						Picture this: you are relaxing at a bistrot terrace in the shade of the plane trees
+						lining a quaint French village square, watching the world drift by...
 						<br />
 						<br />
-						Stay in the mood and meet native French tutor Virginie Hartley at one of
-						several pubs and hotels in Monmouthshire to enjoy speaking French, talking
-						about all things French, and much more.
+						Stay in the mood and meet native French tutor Virginie Hartley at one of several pubs
+						and hotels in Monmouthshire to enjoy speaking French, talking about all things French,
+						and much more.
 						<br />
 						<br />
-						Whatever your level of proficiency, you will be given the opportunity to
-						practice and learn in enjoyable surroundings.
+						Whatever your level of proficiency, you will be given the opportunity to practice and
+						learn in enjoyable surroundings.
 					</p>
 				</section>
 				<section className={style.about}>
@@ -42,16 +41,16 @@ export default function Home() {
 					</h2>
 					<img src='/images/profile.jpg' alt='' />
 					<p>
-						Ginnie is a qualified linguist and artist with over 20 years teaching
-						experience in the UK.
+						Ginnie is a qualified linguist and artist with over 20 years teaching experience in the
+						UK.
 						<br />
 						<br />
-						Her approach and resources are individually tailored to reflect learners'
-						requirements and personal interests.
+						Her approach and resources are individually tailored to reflect learners' requirements
+						and personal interests.
 						<br />
 						<br />
-						Tuition in small groups and one to one home tution at all levels - including
-						exam preparation - are offered online or in person.
+						Tuition in small groups and one to one home tution at all levels - including exam
+						preparation - are offered online or in person.
 					</p>
 				</section>
 			</main>
